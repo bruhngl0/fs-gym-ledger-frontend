@@ -51,7 +51,7 @@ const Create = () => {
   return (
     <div>
       <h3>Create New Record</h3>
-      <form>
+      <form onSubmit={onSubmit}>
 
 
         <div className='form-group'>
